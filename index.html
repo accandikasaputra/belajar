@@ -4,10 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid rebeccapurple;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
-    <h1> Hello World </h1>
+    <a href="#table1">Table</a>
+    <img src="img\banner 1.png" alt="banner 1" height="100px">
+    <h1 id="hallo"> Hello World </h1>
     <p>Belajar nich</p>
-    <a href="instagram.com">Link</a>
+    
+    <p>Paragraf 1</p>
+    <p>Paragraf 2</p>
+
+    <hr/>
+
+    Ini adalah text biasa
+
+    <br/>
+    Ini tampa break
+    <!-- Ini adalah komentar -->
+    <!-- Todo : abis ini di todo in ya-->
+
+    <h1>Ini heading H1</h1>
+    <h2>Ini heading H2</h2>
+    <h3>ini heading H3</h3>
+    <h4>Ini heading h4</h4>
+    <h5>ini heading h5</h5>
+    <h6>ini heading h6</h6>
+
+    <p>text <b>bold</b></p>
+    <p>text <i>italic</i></p>
+    <p>text<sub>sub</sub><sup>sup</sup></p>
+    <p>5 pangkat 2 adalah 5<sup>2</sup></p>
+
+    <h1>List Snack</h1>
+    <ul>
+        <li>Snack 1</li>
+        <li>Snack 2</li>
+        <li>Snack 3</li>
+    </ul>
+
+    <table id="table1">
+        <tr>
+            <th>Company</th>
+            <th>Country</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+            <td>Company 1</td>
+            <td>Country 1</td>
+            <td>Contact 1</td>
+        </tr>
+        <tr>
+            <td>Company 2</td>
+            <td>Country 2</td>
+            <td>Contact 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">Country 3</td>
+            <td>Contact 3</td>
+        </tr>
+         <tr>
+            <td>Company 4</td>
+            <td rowspan="2">Country 4</td>
+            <td>Contact 4</td>
+        </tr>
+         <tr>
+            <td>Company 5</td>
+            
+            <td>Contact 5</td>
+        </tr>
+        
+    </table>
+    <a href="#hallo">Hallo World</a>
+    <form>
+        <label for="name">Nama</label>
+        <input type="text" name="name" id="name" placeholder="isi namamu">
+        <button type="submit">Save</button>
+
+    </form>
 </body>
 </html>
